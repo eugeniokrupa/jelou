@@ -1,5 +1,7 @@
 package crunchify.com.tutorial;
  
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -80,5 +82,7 @@ public class CrunchifyRandomPasswordGenerator {
 		System.out.println("Password sample " + count + ": " + password);
  
 	}
- 
-}
+	
+	
+	}
+	
